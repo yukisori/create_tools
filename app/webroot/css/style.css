@@ -1,0 +1,337 @@
+/*初期設定*/
+body {
+	background: #003d4c;
+	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
+	font-size:90%;
+	margin: 0;
+	background:url('../img/ltbg.jpg');
+	font-family: monospace,Hiragino Kaku "Gothic ProN","メイリオ";
+	min-height:300px;
+}
+body#top_image{
+	background:url('../img/pen.gif');
+	margin: 0;
+	padding: 0;
+}
+.index {
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+}
+div#title_area {
+  float: left;
+  display: block;
+  width: 65%;
+}
+input.loginButton {
+  background: rgb(120, 132, 194);
+  color: white;
+  font-size: 20px;
+  padding: 5px 23px;
+}
+div#top_contents_area {
+  margin-top: 100px;
+}
+input#UserPassword {
+  width: 190px;
+  padding: 6px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+}
+input#Useremail {
+  width: 190px;
+  padding: 6px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+}
+input#UserName {
+  width: 190px;
+  padding: 6px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+}
+.login_form {
+  display: block;
+  float: right;
+  width: 260px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+#title_area h1{
+	font-size: 25px;
+	color:white;
+}
+#title_area p{
+	color:white;
+
+}
+p {
+	margin: 0 0 1em 0;
+}
+
+/*ヘッダーについて*/
+#header{
+	width: 100%;
+	z-index: 100;
+	min-width: 960px;
+	height: 14px;
+	margin-bottom: 32px;
+	top: 0px;
+	left: 0px;
+	right: 20px;
+	position: fixed;
+	_position: absolute;
+	background: url('../img/header.png') repeat-x top;
+	-webkit-box-shadow: -12px 1px 1px #999999;
+	-moz-box-shadow: 1px 1px 1px #999999;
+	box-shadow: 1px 1px 1px #999999;
+}
+#header a{
+	color: rgb(213, 213, 213);
+	font-family: monospace,Hiragino Kaku "Gothic ProN","メイリオ";
+	font-size: 12px;
+
+}
+.selfclear{
+	display:block;
+	clear: both;
+}
+#content{
+	/*margin-top: 50px;*/
+}
+
+#kanri_navi ul,#navi ul{
+	position: relative;
+  	left: 49%;
+  	float: left;
+}
+#kanri_navi li,#navi li:first-child {
+  /*border-left: 1px solid;*/
+  /*border-right: 1px solid;*/
+  padding-left: 27px;
+}
+#kanri_navi li,#navi li{
+	float:left;
+	text-decoration: none;
+	list-style-type: none;
+	position: relative;
+  	left: -50%;
+  	float: left;
+  	/*border-right: 1px solid;*/
+	padding-right: 27px;
+
+}
+#kanri_navi ul{	
+		margin: 0 12px;
+}
+#tools{
+	height: 60px;
+	padding-top: 60px;
+	/*background-color: rgb(120, 132, 194);*/
+	padding-bottom: 5px;
+	min-width: 960px;
+}
+
+#toolname{
+	width:960px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+img.vertical{
+	vertical-align: middle;
+}
+#toolname p{
+	font-size: 20px;
+	font-family: monospace,"Gothic ProN","Hiragino Kaku","メイリオ";
+	color:rgb(237, 237, 237);
+	width: 260px;
+	text-align: center;
+	padding: 5px;
+	margin-right:auto;
+	margin-left:auto;	
+}
+p.title{
+	background: rgb(194, 116, 116);
+}
+
+
+/** Layout **/
+#container {
+	text-align: left;
+	width:960px;
+	margin-left: auto;
+	margin-right:auto;
+
+}
+
+/*mains/index*/
+#index_content{
+
+}
+
+#sub_index_content{
+ width: 261px;
+ height:150px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 30px;
+ padding: 50px;
+border: 5px solid rgb(119, 119, 119);
+background-color: lightgrey;
+}
+#sub_index_content a img{
+	margin-bottom:20px;
+}
+
+/*mains/view*/
+
+.th_number{
+	width: 200px;
+}
+.th_company{
+	width: 110px;
+}
+#pagination_contents{
+	text-align:center;
+}
+/*mains/import*/
+#import_content{
+margin-right:auto;
+margin-left:auto;
+padding-top: 55px;
+width: 400px;
+margin-bottom:100px;
+}
+#import_anken{
+padding: 35px;
+border: 6px rgb(69, 69, 69) solid;
+}
+#import_usercontroll{
+padding: 35px;
+border: 6px rgb(69, 69, 69) solid;
+}
+/*user/index/*/
+#search_result{
+	padding: 35px;
+	border: 6px rgb(69, 69, 69) solid;
+	height:auto;
+}
+#con_calender {
+margin-top: 50px;
+}
+/* mains/usercon */
+p.member_state{
+	text-align: center;
+	font-size:30px;
+	margin-top: 30px;
+}
+#coretime_edit{
+	clear: both;
+}
+.matter_empty{
+	clear: both;
+	text-align: center;
+	padding: 30px;
+	color: white;
+	background: rgb(194, 116, 116);
+}
+div#result_date h2 {
+  font-size: 18px;
+}
+/*relation_manual*/
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+#anken_list option,#anken_list optgroup{
+	font-size: 80%;
+}
+#anken_list select{
+	height:160px;
+}
+#only_box{
+	float:left;
+}
+#anken_list{
+	height:350px;
+	float: left;
+	clear: right;
+	margin-left: 20px;
+}
+#total_contents{
+	width:750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#total_submit {
+	/*float: right;*/
+	text-align: center;
+	clear: both;
+}
+#total_submit input[type="submit"] {
+	width: 300px;
+	height: 50px;
+	background: rgb(194, 116, 116);
+	color: rgb(237, 237, 237);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*footer*/
+
+#search_result li{
+display: inline;
+list-style-type:none;
+}
+#submenu a {
+  background-color: rgb(194, 116, 116);
+  padding: 5px 10px 5px 10px;
+  display: block;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+#submenu a:hover{
+	background-color: rgb(194, 151, 151);
+}
+
+#footer{
+/*	border-top:2px solid rgb(160, 160, 160);
+	height:50px;*/
+}
+div#footer_bar {
+	min-width: 960px;
+	/*background-color: rgb(120, 132, 194);*/
+	height: 15px;
+	margin-top: 35px;
+	}
+div#footer_bar p{
+	font-size:10px;
+	color:white;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+body { font-family: ‘Metrophobic’, Arial, serif; font-weight: 400; }
+
+
+
